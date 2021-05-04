@@ -72,7 +72,7 @@ window.addEventListener('DOMContentLoaded', async function() {
        // Store a reference to the "forecast" element
        let forecastElement = document.querySelector(`.forecast`)
     
-       // Fill the forecast element with the forecast weather conditions
+       // Fill the forecast element with the forecast weather conditions with the loop
        forecastElement.insertAdjacentHTML(`beforeend`,  `
        <div class="text-center space-y-8">
        <div class="font-bold text-3xl">${days} Day Forecast</div>`)
